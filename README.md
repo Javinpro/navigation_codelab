@@ -1,22 +1,12 @@
-# 📱 My Navigation Codelab App
+# 🚀 navigation_codelab
+Dalam codelab ini kamu dapat mempeljarai cara menavigasi screen menggunakan navigator push dan pushnamed. Dan juga di codelab ini, saya menambahkan drawer hamburger list untuk memudahkan navigasi.
 
-**My Flutter App** adalah sebuah aplikasi Flutter sederhana yang menunjukkan kemampuan navigasi menggunakan berbagai metode yang tersedia di Flutter. Aplikasi ini dirancang untuk pemula yang ingin memahami dasar-dasar navigasi di Flutter.
+## 🛠️ Cara Install dan Pakai
+Pastikan Anda telah menginstal Flutter SDK dan Dart di komputer Anda. Pastikan ada editor kode seperti Android Studio atau Visual Studio Code.
 
-## ✨ Fitur
+**Langkah-langkah Instalasi
+1. Clone repositori ini ke vscode:
+```bash
+git clone https://github.com/Javinpro/navigation_codelab.git
+```
 
-1. **Navigasi ke Halaman Berikutnya**
-   - Menggunakan `Navigator.push()` untuk berpindah ke halaman baru.
-   - Cocok untuk navigasi antar halaman secara manual dan dinamis.
-
-2. **Navigasi Kembali ke Halaman Pertama**
-   - Menggunakan `Navigator.pushNamed()` untuk kembali langsung ke halaman pertama.
-   - Membantu dalam mengelola rute aplikasi secara lebih terstruktur menggunakan named routes.
-
-3. **Navigasi dengan Drawer**
-   - Menyediakan Drawer (Hamburger List) yang dapat digunakan untuk berpindah antar halaman.
-
-## 🚀 Cara Menggunakan
-
-1. Clone repository ini ke lokal:
-   ```bash
-   git clone https://github.com/username/repository-name.git
