@@ -11,7 +11,11 @@ class ThirdScreen extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             // Return to the first screen.
-            Navigator.pushNamed(context, '/first');
+            Navigator.pushNamedAndRemoveUntil(
+              context,
+              '/first',
+              (Route<dynamic> route) => false,
+            );
           },
           child: Text('Go Back to First Screen'),
         ),

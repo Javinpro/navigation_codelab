@@ -9,19 +9,31 @@ class CustomDrawer extends StatelessWidget {
           ListTile(
             title: Text('First Screen'),
             onTap: () {
-              Navigator.pushNamed(context, '/first');
+              Navigator.pushNamedAndRemoveUntil(
+                context,
+                '/first',
+                (Route<dynamic> route) => false,
+              );
             },
           ),
           ListTile(
             title: Text('Second Screen'),
             onTap: () {
-              Navigator.pushNamed(context, '/second');
+              Navigator.pushNamedAndRemoveUntil(
+                context,
+                '/second',
+                (Route<dynamic> route) => false,
+              );
             },
           ),
           ListTile(
             title: Text('Third Screen'),
             onTap: () {
-              Navigator.pushNamed(context, '/third');
+              Navigator.pushNamedAndRemoveUntil(
+                context,
+                '/third',
+                (Route<dynamic> route) => false,
+              );
             },
           ),
         ],
