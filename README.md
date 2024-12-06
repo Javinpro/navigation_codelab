@@ -1,5 +1,5 @@
 # 🚀 navigation_codelab
-Dalam codelab ini kamu dapat mempeljarai cara menavigasi screen menggunakan navigator push dan pushnamed. Dan juga di codelab ini, saya menambahkan drawer hamburger list untuk memudahkan navigasi.
+Dalam codelab ini kamu dapat mempeljarai cara menavigasi screen menggunakan navigator push dan pushnamedremoveuntil. Dan juga di codelab ini, saya menambahkan drawer hamburger list untuk memudahkan navigasi.
 
 ## 🛠️ Cara Install dan Pakai
 Pastikan Anda telah menginstal Flutter SDK dan Dart di komputer Anda. Pastikan ada editor kode seperti Android Studio atau Visual Studio Code.
@@ -34,10 +34,10 @@ flutter run
 - Terdapat Hamburger list di pojok kiri atas aplikasi yang dapat memudahkan anda untuk melakukan navigasi secara langsung, tanpa perlu menekan tombol dari tiap screen / page.
 
 # Approach
-Untuk mengerjakan tugas ini, saya menyalin ketiga code yang telah disediakan di elearn. Kemudian saya membuat screen ketiga dengan cara mengcopy screen pertama dan mengubah teksnya. Setelah itu, saya mengganti isi di main.dart untuk membuat routing, yang digunakan pada hamburger list nantinya. Untuk setiap tombol untuk pindah screen, saya memakai navigator push agar dapat berpindah ke screen selanjutnya. Untuk drawer (hamburger list), saya menggunakan routing dari main.dart dan navigator pushNamed untuk perpindahan screennya.
+Untuk mengerjakan tugas ini, saya menyalin ketiga code yang telah disediakan di elearn. Kemudian saya membuat screen ketiga dengan cara mengcopy screen pertama dan mengubah teksnya. Setelah itu, saya mengganti isi di main.dart untuk membuat routing, yang digunakan pada hamburger list nantinya. Untuk setiap tombol untuk pindah screen, saya memakai navigator push agar dapat berpindah ke screen selanjutnya. Untuk drawer (hamburger list), saya menggunakan routing dari main.dart dan navigator pushnamedremoveuntil untuk perpindahan screennya.
 
 # Challenges
-Di project ini, tantangan yang saya hadapi adalah saat membuat third screen, screen saya tidak berpindah kembali ke screen paling pertama saat mengklik "go back to first screen" karena menggunakan navigator push. Jadi saya menggantinya dengan menggunakan navigator pushnamed sehingga dapat ternavigasi ke halaman paling pertama.
+Di project ini, tantangan yang saya hadapi adalah saat membuat third screen, screen saya tidak berpindah kembali ke screen paling pertama saat mengklik "go back to first screen" karena menggunakan navigator push. Jadi saya menggantinya dengan menggunakan navigator pushnamedremoveuntil sehingga dapat ternavigasi ke halaman paling pertama.
 
 # Fitur Utama
 - Tombol perpindahan tiap screen:
