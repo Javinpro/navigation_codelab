@@ -13,8 +13,7 @@
    - Membantu dalam mengelola rute aplikasi secara lebih terstruktur menggunakan named routes.
 
 3. **Navigasi dengan Drawer**
-   - Menyediakan Drawer yang dapat digunakan untuk berpindah antar halaman.
-   - Menampilkan UI yang ramah pengguna dan memudahkan akses ke berbagai fitur.
+   - Menyediakan Drawer (Hamburger List) yang dapat digunakan untuk berpindah antar halaman.
 
 ## 🚀 Cara Menggunakan
 
