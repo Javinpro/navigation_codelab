@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navigation_codelab/third_screen.dart';
 import 'custom_drawer.dart';
 
 class SecondScreen extends StatelessWidget {
@@ -10,8 +11,11 @@ class SecondScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            // Return to the first screen.
-            Navigator.pushNamed(context, '/third');
+            // Navigate to the third screen.
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => ThirdScreen()),
+            );
           },
           child: Text('Go to Third Screen'),
         ),

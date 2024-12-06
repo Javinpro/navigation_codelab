@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navigation_codelab/second_screen.dart';
 import 'custom_drawer.dart';
 
 class FirstScreen extends StatelessWidget {
@@ -11,7 +12,10 @@ class FirstScreen extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             // Navigate to the second screen.
-            Navigator.pushNamed(context, '/second');
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SecondScreen()),
+            );
           },
           child: Text('Go to Second Screen'),
         ),
